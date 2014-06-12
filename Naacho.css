@@ -1,0 +1,297 @@
+@font-face
+{
+	font-family: "samarkan";
+	src: url("http://img.dafont.com/dl/?f=samarkan");
+}
+
+@font-face
+{
+	font-family: "KGALittleSwag";
+	src: url("KGALittleSwag.ttf");
+}
+
+@font-face
+{
+	font-family: "Ormont-Outline";
+	src: url("Ormont-Outline.otf");
+}
+@font-face
+{
+	font-family: "SlabThing";
+	src: url("SlabThing.ttf");
+}
+
+@font-face
+{
+	font-family: "VintageOne";
+	src: url("VintageOne.ttf");
+}
+
+@font-face
+{
+	font-family: "CaviarDreams";
+	src: url("CaviarDreams.ttf");
+}
+
+@font-face
+{
+	font-family: "AlexandriaFLF";
+	src: url("AlexandriaFLF.ttf");
+}
+
+@font-face
+{
+	font-family: "Wednesday";
+	src: url("Wednesday.ttf");
+}
+
+@font-face
+{
+	font-family: "PrintClearly_TT";
+	src: url("PrintClearly_TT.ttf");
+}
+
+@font-face
+{
+	font-family: "Mf Queen Leela";
+	src: url("Mf Queen Leela.ttf");
+}
+
+@font-face
+{
+	font-family: "Ateeca";
+	src: url("Ateeca.ttf");
+}
+
+@font-face
+{
+	font-family: "Andada-Regular";
+	src: url("Andada-Regular.otf");
+}
+
+@font-face
+{
+	font-family: "Andada-Bold";
+	src: url("Andada-Bold.otf");
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#container 
+{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;  
+}
+
+#container #header {
+  margin: 0;
+  padding: 10;
+  width: 100%;
+  height: 100px;
+  float: left;
+  border-bottom: #adde63 solid 1px;
+}
+
+#container2 
+{
+	width: 30%;
+	height: 20%;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: inline-block;
+	background: white;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(Bhangra.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+  background-color: #170C0C;
+}
+
+.event
+{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(Raas.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.member
+{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: black; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.gallery
+{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #171616; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+#Title 
+{
+	font-family: samarkan;
+	font-size: 200px;
+	color: #EDEDED; /*#D62023;*/
+	font-weight: bold;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+#Subtitle
+{
+	font-family: "CaviarDreams";
+	font-size: 35px;
+	color: #EDEDED; /*#D62023;*/
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#AboutH
+{
+	font-family: "AlexandriaFLF";
+	font-size: 85px;
+	color: #D62023;
+	font-style: bold;
+	text-align: center;
+}
+
+#AboutText
+{
+	font-family: "PrintClearly_TT";
+	font-size: 25px;
+	color: #EDEDED;
+	text-align: left;
+}
+
+#EventH
+{
+	font-family: KGALittleSwag;
+	color: white;
+	font-size: 150px;
+}
+
+#EventText
+{
+	font-family: "PrintClearly_TT";
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+#MembersH
+{
+	font-family: "VintageOne";
+	font-size: 80px;
+	text-align: center;
+	color: orange;
+}
+
+#MembersName
+{
+	font-family: "Ormont-Outline";
+	font-size: 20px;
+	text-align: center;
+	color: orange;
+}
+
+#MembersT
+{
+	font-family: "PrintClearly_TT";
+	font-size: 20px;
+	color: #F5F5F5;
+	text-align: center;	
+}
+
+#Text
+{
+	font-family: "PrintClearly_TT";
+	font-size: 20px;
+	color: #D62023;
+	text-align: center;
+}
+
+h1
+{
+	font-family: "Andada-Regular";
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	color: #EDEDED
+}
+
+h4
+{
+	font-family: "Andada-Regular";
+	font-size: 18px;
+	text-align: center;
+	color: #D62023
+}
+
+td,tr
+{
+	padding-top: 0px;
+	padding-right: 30px;
+}
+
+table
+{
+	border-spacing: 0px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
