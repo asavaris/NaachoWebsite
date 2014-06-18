@@ -77,24 +77,24 @@
 
 html,
 body {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 #container 
 {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 0;  
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;  
 }
 
 #container #header {
-  margin: 0;
-  padding: 10;
-  width: 100%;
-  height: 100px;
-  float: left;
-  border-bottom: #adde63 solid 1px;
+	margin: 0;
+	padding: 10;
+	width: 100%;
+	height: 100px;
+	float: left;
+	border-bottom: #adde63 solid 1px;
 }
 
 #container2 
@@ -110,75 +110,90 @@ body {
 }
 
 .vert-text {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
 
 .vert-text h1 {
-  padding: 0;
-  margin: 0;
-  font-size: 4.5em;
-  font-weight: 700;
+	padding: 0;
+	margin: 0;
+	font-size: 4.5em;
+	font-weight: 700;
 }
 
 .header {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background: url(Bhangra.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: url(Bhangra.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* Intro */
 
 .intro {
-  padding: 50px 0;
-  background-color: #170C0C;
+	padding: 50px 0;
+	background-color: #170C0C;
 }
 
 .event
 {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background: url(Raas.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: url(Raas.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .member
 {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background: black; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: black; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .gallery
 {
-  display: table;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background: #171616; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;	
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: #00120A; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
 }
+
+.contact
+{
+	display: table;
+	height: 50%;
+	width: 100%;
+	position: relative;
+	background: url(holi.jpg) no-repeat center center fixed; 
+	/*background: #54000B;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;		
+}
+
 #Title 
 {
 	font-family: samarkan;
@@ -236,7 +251,8 @@ body {
 	font-family: "VintageOne";
 	font-size: 80px;
 	text-align: center;
-	color: orange;
+	color: #E68E00;
+	padding-top:30px;
 }
 
 #MembersName
@@ -244,7 +260,8 @@ body {
 	font-family: "Ormont-Outline";
 	font-size: 20px;
 	text-align: center;
-	color: orange;
+	color: #E68E00;
+	padding: 9px;
 }
 
 #MembersT
@@ -253,6 +270,7 @@ body {
 	font-size: 20px;
 	color: #F5F5F5;
 	text-align: center;	
+	padding: 9px;
 }
 
 #Text
@@ -260,6 +278,38 @@ body {
 	font-family: "PrintClearly_TT";
 	font-size: 20px;
 	color: #D62023;
+	text-align: center;
+}
+
+#GalleryH
+{
+	font-family: "Mf Queen Leela";
+	font-size: 95px;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#ContactH
+{
+	font-family: "Wednesday";
+	font-size: 90px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+#ContactT
+{
+	font-family: "PrintClearly_TT";
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+td.my-class
+{
 	text-align: center;
 }
 
@@ -284,14 +334,17 @@ td,tr
 {
 	padding-top: 0px;
 	padding-right: 30px;
+	vertical-align: top;
+	text-align: center;
 }
 
 table
 {
 	border-spacing: 0px;
-	width: 300px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
-
+	text-align: middle;
 }
+
 
